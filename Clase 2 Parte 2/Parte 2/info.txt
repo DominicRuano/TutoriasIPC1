@@ -1,0 +1,5 @@
+Para ir entendiendo de mejor manera el codigo les deje comentadas algunas partes
+si quieren comentar codigo utilizen la barra doble //
+
+cualquier cosa nos pueden escribir en el grupo, espero que esto les sirva como un inicio de su practica
+
