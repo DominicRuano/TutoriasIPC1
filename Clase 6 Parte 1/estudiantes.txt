@@ -1,0 +1,60 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package javaapplication5;
+
+// Llamar la libreria Serializable
+import java.io.Serializable;
+
+/**
+ *
+ * @author samuel
+ */
+
+// importante colocar "Implementes Serializable"
+// para que puedan utilizar la serializacion de datos
+public class Estudiantes implements Serializable{
+    String nombre;
+    String apellido;
+    int edad;
+    String carnet;
+
+    // Metodo Construcutor de la clase estudiantes
+    public Estudiantes(String nombre, String apellido, int edad, String carnet) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.carnet = carnet;
+    }
+    
+    
+    // Metodos Get
+    // Sirven para mandar a trer ciertos datos de alguna clase
+    public String getNombe() {   
+        return this.nombre;
+    }
+      
+    public String getApellido(){
+        return this.apellido;
+    }
+    
+    public int getEdad() {
+        return this.edad;
+    }
+    
+    public String getCarnet() {
+        return this.carnet;
+    }
+   
+    
+    // Metodos Set
+    // Sirven para cambiar el valor de this.nombre a un nuevo nombre que le pasemos 
+    void setNombre(String nombre) {   
+        this.nombre = nombre;
+    }
+    
+}
+
+
+// Este es unicamente un archivo de texto

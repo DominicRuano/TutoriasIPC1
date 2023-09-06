@@ -1,0 +1,5 @@
+Clase del martes 5 de Septiembre
+
+Ejemplo sobre el metodo de guardado de datos a base de clases, creando arreglos del tipo clases
+
+Ejemplo sobre la Serializacion, como guardar y leer archivos, para su utilizacion posterior
